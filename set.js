@@ -7,10 +7,10 @@ const databasePath = path.join(__dirname, './database.db');
 const DATABASE_URL = process.env.DATABASE_URL === undefined
     ? databasePath
     : process.env.DATABASE_URL;
-module.exports = { session: process.env.SESSION_ID || '',
+module.exports = { session: process.env.SESSION_ID || 'XMDIAAAAAAAAA82Wy47rNhKGX2XAbRux7pINNBBdfWv5btnuwSxoiZZoS5RMUrblwA8R9LoX2WeTbBIgL9WPEMjdnXMwSA56cM5itKIoquqrn8Uq/gBIjhkaoAq0fwAFxUfIUT3kVYFAG1jldosoaIAIcgjaoGN6Y0l82CFB2NuP5GFtSZ3jmT52mTzKlpO5PR5QV9v13NX6HlwboCg3KQ6/YDDfLNcLrCqb0tr1j2Nxx7pZXzc7ZZOo1uWirkp6HDneMA7YPbjWFiGmmMRukaAMUZgOUDWGmH4MXxqZwcCu+JhXC35ZWlJx6haT5G4190edC1ydVVLuFaPlL8yP4cOim8YLKhXmgMDuZK8I5zgcKUq3G/dFnz0eW06R+mgm7cJXfIZjgqJehAjHvPqw7siPk51POupmOlOC2YoP19Y4J96lsLWOl8jLE7wz8KAVeL2PgbtDU5/hUlgvSZ8cTnvXc7FW9vqimRb5OKFQuNBKp+v9NP8cfEzfc2X/v+hu+A5SHtbqdj4qol1TanVtB85VYSWffdR0ZjPay8uJ+0Ay92P4yfAkpmKVkjIdwBOD/Ynj4Qkuzsvz8Dxfp1p2YRnfzZ1g/Qkf8pJ+UeQoLGeCXnVStJ766qOpLFNvUMVk2IkFRs8syDnpdyYnc504vbkWjyxZHbG7RFSH0qXnyFmeTANVhDvMAgdvRmaZJvH9LaI9qnoRaIvXBqAoxoxTyHFObnOG0AAwOs5QSBG/yQvIaNxbhP5duhsRN6UmF83ZFFvT6XRYaWWgGZOWElc+ewjie9AABc1DxBiKupjxnFY+YgzGiIH2v287VQdNUZZz1MdRvR+GJqu6pGmy0FK171McgQbY0jzzEWhzWqIGuK2TTV3XbNlWFdHQBU/wbEWp3UHKcYgLSDhoA1DTRxQxhkns51EtbW3x2gDZK8ccZ4hxmBWgLeotRdBEQVGuja9EM23N0UXZbLmq4nmSq2vfCE39ejRZkF1HczRNtDzD0g3rG6EZX42mu5pi2GrLMiTFkVzNlf9v0GRJ1kRFUwxdF2SzZZnSt0HTvj7XHMvSRU8zXNGTVUXwXP3boOnS9T8NQNCZv1bWuh4YotwAW0wZX5CySHMYvdfdv77CMMxLwmcVCe16gChoi5+mEeeYxKwOtySQhgk+IjuBnIH2FqYM/VWEEEXRe6RvjdV+JTfMbm+6crugpq8N3YSQZFltKZqhCKLUVqXv2Xen2iwsiu8I4qBxC/i/da0XvkpLYG0LvDw//fjy/PT7y/PTHy/PT7/96+X56aeX56dfX56ffn55fvql1uwtltp1hDjEKQNtYD+sFrI2eXBHq/Q4DDsdcx2bdmyCT7G/1/nXOhoeLuejIdK4mlzsCl9gmhcRm98tt4eDmgbjjQwdU99b+5Vx/zdGQBvcNfHQCca4tQ2Wot4t+v2ycMJD6Tn5KCaTYLPu3yXNdOVr2XpMj26zvLgzWYGGZgfqXBdDIpyK4SyEWXeepPb2VFz8W1NogAgdcYg+d+Y8CLuNY6KLmWXlahbYhz7OhsNJaE/i7jjW44rRiWpK0DftZIFW3dNd027ZuBC6g7zvhp0pPPTK/VzBq3Vl9JJxolnJ6bUD3Tpg+nbzwG+9Ad9etxjdGvnb/vzT9r3y1kkoXBuf/fp2I/iHrmqtBszYNIdQ8ff+ieVMKuBgtXGbKdEO5WMwl1pSfBqp5qPXBNf6OBQp5NucZqANcJHkBIEGoHlZ53SPbPMv+LJNoWeb8a6ON4WMm5/Oyd+VLLEBssosihmH/P18AbN+eou6z9UmxjQvupAldfYf8m2wB9c/AYQKLbs1CwAA',
     PREFIXE: process.env.PREFIX || "+",
-    OWNER_NAME: process.env.OWNER_NAME || "Ibrahim Adams",
-    NUMERO_OWNER : process.env.OWNER_NUMBER || "",              
+    OWNER_NAME: process.env.OWNER_NAME || "Born Rich",
+    NUMERO_OWNER : process.env.OWNER_NUMBER || "233594684012",              
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "yes",
     AUTO_DOWNLOAD_STATUS: process.env.AUTO_DOWNLOAD_STATUS || 'non',
     BOT : process.env.BOT_NAME || 'BMW MD',
